@@ -1,0 +1,34 @@
+$color1: #30211e;
+$color2:#99cc33;
+$color3:#256136;
+$color4: #9c9b9b;
+$color5: #fff;
+
+
+.intro{
+    padding:40px;
+    margin: auto;
+}
+.logo_uitleg{
+    padding:80px;
+    margin:auto;
+    img{
+        width: 25%;
+        justify-content: center;
+        float: right;
+    }
+}
+
+.card {
+    margin-bottom: 20px;
+}
+.color_card{
+    margin: auto;
+    height:250px;
+    width: 100%;
+}
+.card-body{
+    max-height:500px;
+    min-height: 400px;
+}
+

@@ -1,0 +1,156 @@
+@import "logo";
+@import "print";
+
+@font-face {
+  font-family: qanelassoft_extrabold;
+  src: url(../font/QanelasSoftDEMO-ExtraBold.otf);
+}
+@font-face {
+  font-family: qanelassoft_ultralight;
+  src: url(../font/QanelasSoftDEMO-UltraLight.otf);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,700,900');
+
+$color1: #30211e;
+$color2:#99cc33;
+$color3:#256136;
+$color4: #9c9b9b;
+$color5: #fff;
+
+$fontset1:'Lato', sans-serif;
+$fontset2: qanelassoft_extrabold;
+$fontset3: qanelassoft_ultralight;
+
+body {
+  font-family: $fontset1;
+  font-weight: 300;
+  font-size:1em;
+  color: $color1;
+}
+nav{
+  background-color: $color5;
+}
+
+
+.nav-link {
+  color: $color1;
+}
+
+.nav-item {
+  padding: 10px;
+}
+.navbar-brand{
+  a{
+  height:50px;
+  width:auto;
+  object-fit: contain;
+  background-image: url(/images/koe_down.png);
+}}
+.navbar-brand:hover{
+  a{
+  height:50px;
+  width:auto;
+  object-fit: contain;
+  background-image:url(/images/koe_up.png);
+}}
+
+.nav-item {
+  color:$color1;
+  :hover{
+    color:$color2;
+  }
+  li.active{
+  color:$color2;
+  font-weight:900;}
+}
+
+.cool-link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.cool-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: $color5;
+  transition: width .3s;
+}
+
+.cool-link:hover::after {
+  width: 100%;
+}
+
+h1 {
+  font-family: $fontset2;
+}
+
+h2 {
+  font-family: $fontset1;
+  font-weight: 300;
+  font-size: 2rem;
+}
+h3 {
+  font-family: $fontset1;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+h4{
+  font-family: $fontset3;
+}
+
+.jumbotron{
+  display: flex;
+  background-color:$color2;
+  margin-bottom:0px;
+  max-height: 300px;
+  flex-flow: row;
+  align-items: center;
+}
+.jumbotron_img{
+  width:20%;
+  padding:20px;
+}
+.img_container{
+  position: relative;
+  display: inline-flex;
+  width:100%;
+  height: auto;
+  padding:20px;
+  justify-content: center;
+}
+
+footer {
+  position: absolute;
+  color: $color5;
+  background-color: $color1;
+  height: 250px;
+  width: 100%;
+  margin-top:100px;
+  text-align: center;
+  padding:50px;
+  font-size:0.75em;
+  font-weight:300;
+}
+img{
+  width: 100%;
+  height:100%;
+  object-fit: contain;
+}
+strong{
+  font-weight:700;
+}
+.card_img{
+  img{
+    padding:20px;
+  }
+}
+.download_card{
+  min-height: 700px;
+  max-height:750px;
+}
+.download_card_hor{
+  max-height:500px;
+}

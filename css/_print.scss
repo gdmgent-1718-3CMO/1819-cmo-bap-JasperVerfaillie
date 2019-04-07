@@ -1,0 +1,29 @@
+.btn-outline-primary{
+    background-color:$color5;
+    color:$color1;
+    border-color: $color2;
+    border-width: 1px;
+}
+.btn-outline-primary:hover{
+    background-color:$color2;
+    color:$color5;
+    border-color: $color2;
+    border-width: 1px;
+}
+
+.btn-outline-success{
+    background-color:$color5;
+    color:$color1;
+    border-color: $color2;
+    border-width: 1px;
+}
+.btn-outline-success:hover{
+    background-color:$color2;
+    color:$color5;
+    border-color: $color2;
+    border-width: 1px;
+}
+.btn {
+    margin:10px;
+    font-size:0.7em;
+    }
