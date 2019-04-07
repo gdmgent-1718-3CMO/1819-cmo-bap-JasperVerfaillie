@@ -135,18 +135,23 @@ nav {
 
 h1 {
   font-family: qanelassoft_extrabold;
-  font-size: 2.5rem;
+  font-size: 2.5em;
+}
+
+h5 {
+  font-family: qanelassoft_extrabold;
+  font-size: 5.5vw;
 }
 
 h2 {
   font-family: "Lato", sans-serif;
   font-weight: 300;
-  font-size: 2rem;
+  font-size: 4vw;
 }
 
 h3 {
   font-family: "Lato", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1em;
   font-weight: 700;
 }
 
@@ -168,6 +173,10 @@ h4 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.jumbotron_txt {
+  width: 100%;
 }
 
 .jumbotron_img img {
@@ -224,8 +233,6 @@ footer p {
 
 .footer_img {
   height: 75px;
-  width: 200px;
-  margin: -20px;
 }
 
 img {
@@ -245,7 +252,7 @@ strong {
 
 .download_card {
   min-height: 700px;
-  max-height: 750px;
+  max-height: 800px;
 }
 
 .download_card_hor {
