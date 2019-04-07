@@ -94,20 +94,11 @@ nav {
   padding: 10px;
 }
 
-.navbar-brand a {
+.navbar-brand img {
   height: 50px;
-  width: auto;
+  width: 100px;
   -o-object-fit: contain;
      object-fit: contain;
-  background-image: url(/images/koe_down.png);
-}
-
-.navbar-brand:hover a {
-  height: 50px;
-  width: auto;
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-image: url(/images/koe_up.png);
 }
 
 .nav-item {
@@ -144,6 +135,7 @@ nav {
 
 h1 {
   font-family: qanelassoft_extrabold;
+  font-size: 2.5rem;
 }
 
 h2 {
@@ -178,8 +170,10 @@ h4 {
           align-items: center;
 }
 
-.jumbotron_img {
-  width: 20%;
+.jumbotron_img img {
+  min-width: 130px;
+  min-height: 150px;
+  width: 75%;
   padding: 20px;
 }
 
@@ -231,14 +225,14 @@ footer p {
 .footer_img {
   height: 75px;
   width: 200px;
-  margin: 20px;
+  margin: -20px;
 }
 
 img {
-  width: 100%;
-  height: 100%;
   -o-object-fit: contain;
      object-fit: contain;
+  width: 100%;
+  height: 100%;
 }
 
 strong {
