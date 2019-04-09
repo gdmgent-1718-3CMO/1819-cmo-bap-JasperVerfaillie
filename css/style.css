@@ -32,6 +32,33 @@
   min-height: 400px;
 }
 
+.link_container {
+  min-height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+.link_container:hover {
+  background-color: #99cc33;
+}
+
+.link_txt {
+  min-height: 150;
+  width: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2.5em;
+}
+
 .btn-outline-primary {
   background-color: #fff;
   color: #30211e;
