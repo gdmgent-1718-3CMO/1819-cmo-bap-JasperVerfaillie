@@ -1,4 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,300i,700,900");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,300i,700,900");
+@font-face {
+  font-family: qanelassoft_extrabold;
+  src: url(../font/QanelasSoftDEMO-ExtraBold.otf);
+}
+
+@font-face {
+  font-family: qanelassoft_ultralight;
+  src: url(../font/QanelasSoftDEMO-UltraLight.otf);
+}
+
 .intro {
   padding: 40px;
   margin: auto;
@@ -33,30 +44,35 @@
 }
 
 .link_container {
-  min-height: 150px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  padding: 20px;
+  font-size: 1.5em;
+  font-family: qanelassoft_extrabold;
+  margin: 0px;
+  background-color: #99cc33;
+  margin-bottom: 20px;
+}
+
+.link_container a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #30211e;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
   width: 100%;
 }
 
 .link_container:hover {
-  background-color: #99cc33;
+  background-color: #30211e;
 }
 
-.link_txt {
-  min-height: 150;
-  width: 100%;
-  text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-size: 2.5em;
+.link_container:hover a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .btn-outline-primary {

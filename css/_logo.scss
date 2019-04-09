@@ -4,6 +4,21 @@ $color3:#256136;
 $color4: #9c9b9b;
 $color5: #fff;
 
+@font-face {
+    font-family: qanelassoft_extrabold;
+    src: url(../font/QanelasSoftDEMO-ExtraBold.otf);
+  }
+@font-face {
+    font-family: qanelassoft_ultralight;
+    src: url(../font/QanelasSoftDEMO-UltraLight.otf);
+  }
+  
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,700,900');
+  
+  $fontset1:'Lato', sans-serif;
+  $fontset2: qanelassoft_extrabold;
+  $fontset3: qanelassoft_ultralight;
+
 
 .intro{
     padding:40px;
@@ -31,23 +46,27 @@ $color5: #fff;
     max-height:500px;
     min-height: 400px;
 }
-.link_container{
-    min-height:150px;
-    object-fit: cover;
+.link_container{  
+    padding:20px;
+    font-size: 1.5em;
+    font-family: $fontset2;
+    margin:0px;
+    background-color: $color2;
+    margin-bottom:20px;
+    a{
+    display: flex;
+    color:$color1;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
     width:100%;
+    }
+
 }
 
 .link_container:hover {
-    background-color: $color2;
-}
-
-.link_txt{
-    min-height:150;
-    width:100%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2.5em;
-    
-}
+    background-color: $color1;
+    a{
+    color:$color5;
+    text-decoration: none;
+}}
